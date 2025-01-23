@@ -25,7 +25,7 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-purple-50 p-8">
+    <div className="min-h-screen flex flex-col items-center justify-center  p-8">
       {/* Inauguration Animation */}
       <AnimatePresence>
         {showAnimation && <InaugurationAnimation />}
