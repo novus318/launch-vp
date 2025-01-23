@@ -7,9 +7,6 @@ export default function Home() {
   return (
     <div
       className="min-h-screen flex flex-col items-center justify-center p-4"
-      style={{
-        background: "linear-gradient(135deg, #f3f4f6, #e5e7eb)",
-      }}
     >
       <motion.div
         initial={{ opacity: 0, y: -50 }}
